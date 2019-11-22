@@ -1,0 +1,56 @@
+{
+  "name": "react",
+  "description": "React is a JavaScript library for building user interfaces.",
+  "keywords": [
+    "react",
+    "sourcecode",
+    "study"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c --watch",
+    "flow": "flow"
+  },
+  "version": "16.12.0",
+  "homepage": "https://reactjs.org/",
+  "bugs": "https://github.com/JS-Hao/good-good-study-react/issues",
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "build-info.json",
+    "index.js",
+    "cjs/",
+    "umd/"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JS-Hao/good-good-study-react.git"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/preset-env": "^7.7.1",
+    "loose-envify": "^1.1.0",
+    "object-assign": "^4.1.1",
+    "prop-types": "^15.6.2",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "browserify": {
+    "transform": [
+      "loose-envify"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-flow": "^7.0.0",
+    "@rollup/plugin-replace": "^2.2.1",
+    "flow-bin": "^0.112.0",
+    "rollup-plugin-flow": "^1.1.1"
+  }
+}
